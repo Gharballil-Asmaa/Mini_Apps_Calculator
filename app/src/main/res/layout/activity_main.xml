@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Veuillez choisir l'operation a realiser"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnS"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="SOMME"
+        android:textSize="20sp"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btnD"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="DIFFERENCE"
+        android:textSize="20sp"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btnP"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="PRODUIT"
+        android:textSize="20sp"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
